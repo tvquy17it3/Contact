@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".addd">
+
+        <TextView
+            android:id="@+id/TV0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add contact"
+            android:gravity="top"
+            android:layout_gravity="center_horizontal"
+            android:textSize="22dp"
+            android:textColor="#4348e8"
+
+            />
+        <LinearLayout
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="64dp">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Full name:"
+                />
+
+            <EditText
+                android:id="@+id/edt_fullname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="64dp">
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Company:"
+                />
+
+            <EditText
+                android:id="@+id/edt_company"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="64dp">
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Number phone:"
+                />
+
+            <EditText
+                android:id="@+id/edt_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <Button
+                android:id="@+id/cancel"
+                android:layout_height="wrap_content"
+                android:layout_width="150dp"
+                android:background="#b67b7e"
+                android:layout_gravity="right"
+                android:text="Cancel"/>
+            <Button
+                android:id="@+id/save"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="0dp"
+                android:layout_height="wrap_content"
+                android:layout_width="150dp"
+                android:background="#00c853"
+                android:text="Save"/>
+
+        </LinearLayout>
+
+</LinearLayout>
